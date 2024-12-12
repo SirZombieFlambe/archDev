@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1726637644" />
+    <testcase name="dff_simple_test" classname="test_dff" file="/home/zsnider/archDev/test_dff.py" lineno="10" time="0.0024640560150146484" sim_time_ns="115000.001" ratio_time="46671017.338587716" />
+  </testsuite>
+</testsuites>

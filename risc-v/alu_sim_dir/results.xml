@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1731024180" />
+    <testcase name="run_alu_sim" classname="alu_sim" file="/home/zsnider/archDev/risc-v/alu_sim.py" lineno="64" time="0.002248525619506836" sim_time_ns="36.0" ratio_time="16010.491358286501" />
+  </testsuite>
+</testsuites>

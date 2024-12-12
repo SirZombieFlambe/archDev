@@ -1,0 +1,10 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1731112335" />
+    <testcase name="run_alu_sim" classname="alu_sim" file="/home/zsnider/archDev/risc-v/alu_sim.py" lineno="73" time="0.0008318424224853516" sim_time_ns="6.0" ratio_time="7212.904557179708">
+      <failure message="Test failed with RANDOM_SEED=1731112335" />
+    </testcase>
+    <testcase name="run_alu_sim2" classname="alu_sim" file="/home/zsnider/archDev/risc-v/alu_sim.py" lineno="90" time="0.0004315376281738281" sim_time_ns="16.0" ratio_time="37076.72044198895" />
+    <testcase name="test_xor_operation" classname="alu_sim" file="/home/zsnider/archDev/risc-v/alu_sim.py" lineno="113" time="0.0002923011779785156" sim_time_ns="16.0" ratio_time="54738.061990212074" />
+  </testsuite>
+</testsuites>
