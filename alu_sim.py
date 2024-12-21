@@ -372,6 +372,20 @@ async def test_mul(dut):
 
 async def mul(dut, multiplicand, multiplier):
     product = 0
+    # Step 1: Determine if the result should be negative
+    # Check if multiplicand is negative
+    is_multiplicand_negative = await gte(dut, 0, multiplicand)  # multiplicand < 0
+
+    # Check if multiplier is negative
+    is_multiplier_negative = await gte(dut, 0, multiplier)  # multiplier < 0
+
+    # XOR-like behavior: Result is negative if only one of them is negative
+    temp_sum = await add(dut, is_multiplicand_negative, is_multiplier_negative)
+    is_negative_result = await gte(dut, temp_sum, 1)  # one < 0
+
+    # Step 2: Use absolute values for the calculation
+    multiplicand = await abs_value(dut, multiplicand)
+    multiplier = await abs_value(dut, multiplier)
 
     loop_value = await gte(dut, multiplier, 1)
     while loop_value:
@@ -391,6 +405,10 @@ async def mul(dut, multiplicand, multiplier):
         multiplier = dut.d.value  # Mask to 32 bits
 
         loop_value = await gte(dut, multiplier, 1)
+
+    if is_negative_result:
+        product = await twos_complement(dut, product)
+
     return product
 
 
@@ -492,7 +510,7 @@ async def test_all_operations(dut):
     not_cases = [7, 0xFFFFFFFF, 0, -9]
     gt_cases = [(15, -25), (5, 5), (-1, 1)]
     gte_cases = [(20, -30), (5, 5), (0, 1)]
-    mul_cases = [(15, 13), (-7, 3), (0, 100)]
+    mul_cases = [(15, 13), (-7, 3), (0, 100), (-1, 6), (6, -1)]
     div_cases = [(100, 7), (15, 5), (30, -6), (-30, -5), (-30, 6)]
     equ_cases = [(15, 15), (5, 10), (0, 0)]
     logical_not_cases = [1, 0, -5]
