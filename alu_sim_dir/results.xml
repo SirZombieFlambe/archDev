@@ -1,18 +1,13 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1734120432" />
-    <testcase name="test_add_operation" classname="alu_sim" file="/home/zsnider/archDev/alu_sim.py" lineno="37" time="0.0027654170989990234" sim_time_ns="16.0" ratio_time="5785.745667729977" />
-    <testcase name="test_xor_operation" classname="alu_sim" file="/home/zsnider/archDev/alu_sim.py" lineno="61" time="0.0018618106842041016" sim_time_ns="16.0" ratio_time="8593.784607504162" />
-    <testcase name="test_not_operation" classname="alu_sim" file="/home/zsnider/archDev/alu_sim.py" lineno="86" time="0.0003726482391357422" sim_time_ns="16.0" ratio_time="42935.933461292385" />
-    <testcase name="test_sub_operation" classname="alu_sim" file="/home/zsnider/archDev/alu_sim.py" lineno="116" time="0.0065326690673828125" sim_time_ns="576.0" ratio_time="88172.2300729927" />
-    <testcase name="test_or_operation" classname="alu_sim" file="/home/zsnider/archDev/alu_sim.py" lineno="160" time="0.0006802082061767578" sim_time_ns="16.0" ratio_time="23522.209603925694" />
-    <testcase name="test_gt_operation" classname="alu_sim" file="/home/zsnider/archDev/alu_sim.py" lineno="184" time="0.0007801055908203125" sim_time_ns="16.0" ratio_time="20510.04400977995" />
-    <testcase name="test_equ_operation" classname="alu_sim" file="/home/zsnider/archDev/alu_sim.py" lineno="209" time="0.0016932487487792969" sim_time_ns="176.0" ratio_time="103942.19994367784" />
-    <testcase name="test_not_equ_operation" classname="alu_sim" file="/home/zsnider/archDev/alu_sim.py" lineno="236" time="0.0031151771545410156" sim_time_ns="296.0" ratio_time="95018.67319761212" />
-    <testcase name="test_not_logical_operation" classname="alu_sim" file="/home/zsnider/archDev/alu_sim.py" lineno="268" time="0.0012176036834716797" sim_time_ns="116.0" ratio_time="95269.09418445271" />
-    <testcase name="test_gte_operation" classname="alu_sim" file="/home/zsnider/archDev/alu_sim.py" lineno="322" time="0.004346370697021484" sim_time_ns="216.0" ratio_time="49696.63543609435" />
-    <testcase name="test_mul" classname="alu_sim" file="/home/zsnider/archDev/alu_sim.py" lineno="353" time="0.015318632125854492" sim_time_ns="1696.0" ratio_time="110714.84621251031" />
-    <testcase name="test_div" classname="alu_sim" file="/home/zsnider/archDev/alu_sim.py" lineno="397" time="0.027568340301513672" sim_time_ns="3116.0" ratio_time="113028.20430684078" />
-    <testcase name="test_all_operations" classname="alu_sim" file="/home/zsnider/archDev/alu_sim.py" lineno="481" time="0.28965234756469727" sim_time_ns="32896.0" ratio_time="113570.63140201994" />
+    <property name="random_seed" value="1734756444" />
+    <testcase name="test_not" classname="alu_sim" file="/home/zsnider/archDev/alu_sim.py" lineno="53" time="0.0037813186645507812" sim_time_ns="146.0" ratio_time="38610.86910466583" />
+    <testcase name="test_add" classname="alu_sim" file="/home/zsnider/archDev/alu_sim.py" lineno="83" time="0.001699686050415039" sim_time_ns="116.0" ratio_time="68247.89788189087" />
+    <testcase name="test_negate" classname="alu_sim" file="/home/zsnider/archDev/alu_sim.py" lineno="109" time="0.004210472106933594" sim_time_ns="276.0" ratio_time="65550.84394110985" />
+    <testcase name="test_sub" classname="alu_sim" file="/home/zsnider/archDev/alu_sim.py" lineno="139" time="0.004928112030029297" sim_time_ns="546.0" ratio_time="110792.93584905661" />
+    <testcase name="test_gte" classname="alu_sim" file="/home/zsnider/archDev/alu_sim.py" lineno="165" time="0.002271890640258789" sim_time_ns="236.0" ratio_time="103878.23947948369" />
+    <testcase name="test_multiply" classname="alu_sim" file="/home/zsnider/archDev/alu_sim.py" lineno="245" time="0.03205394744873047" sim_time_ns="3776.0" ratio_time="117801.40358811103" />
+    <testcase name="test_div" classname="alu_sim" file="/home/zsnider/archDev/alu_sim.py" lineno="308" time="0.04823565483093262" sim_time_ns="5626.0" ratio_time="116635.71314039986" />
+    <testcase name="run_alu_sim" classname="alu_sim" file="/home/zsnider/archDev/alu_sim.py" lineno="335" time="7.128715515136719e-05" sim_time_ns="1.0" ratio_time="14027.772575250836" />
   </testsuite>
 </testsuites>

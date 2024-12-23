@@ -32,3 +32,19 @@ for step in binary_steps:
     print(step)
 
 print(binary_val)
+#
+# # Decimal fraction to convert
+# fractional_decimal = Decimal('0.3333333333333333')  # Use Decimal for input value
+#
+# # Convert and print the result
+# binary_steps, binary_val = decimal_to_binary_fraction(fractional_decimal, steps=52)
+# for step in binary_steps:
+#     print(step)
+#
+# print(binary_val)
+#
+# binary_steps, binary_val = decimal_to_binary_fraction(fractional_decimal, steps=3)
+# for step in binary_steps:
+#     print(step)
+#
+# print(binary_val)

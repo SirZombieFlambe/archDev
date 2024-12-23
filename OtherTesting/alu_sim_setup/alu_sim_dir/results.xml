@@ -1,0 +1,14 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1734745281" />
+    <testcase name="test_not" classname="alu_sim" file="/home/lucasje/alu_sim_setup/alu_sim.py" lineno="52" time="0.003180265426635742" sim_time_ns="146.0" ratio_time="45908.11784991379" />
+    <testcase name="test_add" classname="alu_sim" file="/home/lucasje/alu_sim_setup/alu_sim.py" lineno="81" time="0.0016727447509765625" sim_time_ns="116.0" ratio_time="69347.1014823261" />
+    <testcase name="test_negate" classname="alu_sim" file="/home/lucasje/alu_sim_setup/alu_sim.py" lineno="105" time="0.003184795379638672" sim_time_ns="276.0" ratio_time="86661.76852822279" />
+    <testcase name="test_sub" classname="alu_sim" file="/home/lucasje/alu_sim_setup/alu_sim.py" lineno="134" time="0.005313396453857422" sim_time_ns="546.0" ratio_time="102759.13057524903" />
+    <testcase name="test_gte" classname="alu_sim" file="/home/lucasje/alu_sim_setup/alu_sim.py" lineno="157" time="0.0011458396911621094" sim_time_ns="86.0" ratio_time="75054.12900540991" />
+    <testcase name="test_multiply" classname="alu_sim" file="/home/lucasje/alu_sim_setup/alu_sim.py" lineno="211" time="0.0028061866760253906" sim_time_ns="236.0" ratio_time="84099.8932880204">
+      <failure message="Test failed with RANDOM_SEED=1734745281" />
+    </testcase>
+    <testcase name="run_alu_sim" classname="alu_sim" file="/home/lucasje/alu_sim_setup/alu_sim.py" lineno="233" time="7.987022399902344e-05" sim_time_ns="1.0" ratio_time="12520.310447761194" />
+  </testsuite>
+</testsuites>
