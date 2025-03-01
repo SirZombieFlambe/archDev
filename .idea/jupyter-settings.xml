@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JupyterPersistentConnectionParameters">
+    <option name="knownRemoteServers">
+      <list>
+        <JupyterConnectionParameters>
+          <option name="authType" value="notebook" />
+          <option name="token" value="d5e3a0a3d8e15a81be7d8dd4d6c506c0b5c94affaaca8089" />
+          <option name="urlString" value="http://localhost:8888/" />
+          <authParams2>
+            <map>
+              <entry key="token" value="d5e3a0a3d8e15a81be7d8dd4d6c506c0b5c94affaaca8089" />
+            </map>
+          </authParams2>
+        </JupyterConnectionParameters>
+      </list>
+    </option>
     <option name="moduleParameters">
       <map>
         <entry key="$PROJECT_DIR$/.idea/archDev.iml">
           <value>
             <JupyterConnectionParameters>
-              <option name="managed" value="true" />
-              <option name="sdkName" value="/usr/bin/python3" />
+              <option name="authType" value="notebook" />
+              <option name="token" value="d5e3a0a3d8e15a81be7d8dd4d6c506c0b5c94affaaca8089" />
+              <option name="urlString" value="http://localhost:8888/" />
+              <authParams2>
+                <map>
+                  <entry key="token" value="d5e3a0a3d8e15a81be7d8dd4d6c506c0b5c94affaaca8089" />
+                </map>
+              </authParams2>
             </JupyterConnectionParameters>
           </value>
         </entry>
